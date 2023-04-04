@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    
+}
+.col-md-5{
+    margin-top: 150px !important;
+    background-color: rgba(255, 255, 255, 0.255);
+    
+    
+}
+h1{
+    text-align: center;
+    font-weight: bolder !important;
+    margin: 20x !important;
+    color: white;
+}
+
+input{
+    display: inline !important;
+    border:3px solid rgba(255, 255, 255, 0.235) !important;
+    width: 80% !important;
+    
+}
+.col-md-5 button{
+    margin-left: 0.7em !important;
+}
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: center; 
+    color: rgb(0, 0, 0);
+    border-radius: 5px !important;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    
+    background-color: rgba(255, 255, 255, 0.301);
+}
+
+li:first-child{
+    width: 90% !important;
+    margin-left: -10px;
+}
+
+
+i{
+    color: rgb(255, 238, 0);
+    margin-left: 0.7em;
+}
+#mytodo{
+    margin-top: 10px !important;
+    overflow:hidden !important;
+}
+
+@media (max-width:800px) {
+    .col-md-5{
+        width: 90% !important;
+    }
+    input{
+        width: 75% !important;
+    }
+}
